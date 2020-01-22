@@ -1,0 +1,19 @@
+ul{
+  display: flex;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+}
+li{
+  list-style-type: none;
+  margin: 10px;
+}
+a{
+  color: rgb(204, 204, 204);
+  text-decoration: none;
+}
+
+.active_link{
+  color: white;
+  text-decoration: underline;
+}

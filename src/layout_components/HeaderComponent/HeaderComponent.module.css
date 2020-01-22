@@ -1,0 +1,7 @@
+.header{
+  position: relative;
+  height: 200px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/books_bgd.jpg);
+  background-size: cover;
+}

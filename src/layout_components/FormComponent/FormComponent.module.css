@@ -1,0 +1,43 @@
+.form_modal{
+  display: grid;  
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;  
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.detailed_view{
+  position: relative;
+    padding: 3rem;
+    width: 65rem;
+    height: 55rem;
+    background-image: linear-gradient(45deg, gray, white);
+    box-sizing: border-box;
+}
+
+.book__cover {
+  height: 23rem;
+  margin: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.4);
+}
+
+.close_modal{
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.4);
+}
+.edit_entry{
+/**/
+}
+input, textarea{
+  width: 40rem;
+}
+form{
+  text-align: left;
+  padding-left: 75px;
+}
